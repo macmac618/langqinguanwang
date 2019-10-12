@@ -89,6 +89,11 @@ $(".ab_33").mouseenter(function(){
 $(".ab_33").mouseleave(function(){
 	$(this).hide();	
 })
+
+
+
 // $(".a_a").click(function(){
 //   $(".a_1").css("display","block");
 // })
+
+$(".a_a")
