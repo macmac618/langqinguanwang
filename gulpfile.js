@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 // const uglify = require("gulp-uglify");
 const minifycss = require("gulp-minify-css");
+// const imagemin = require("gulp-imagemin");
 
 gulp.task('copyallfile',async ()=>{
 	gulp.src('./**/*')
@@ -27,16 +28,23 @@ gulp.task("watchall",async()=>{
         .pipe(gulp.dest("css"))
     })
     //监听js
-    gulp.watch(".js",async()=>{
-        gulp.src("*.js")
-        // .pipe(js())
+    gulp.watch("js/**/*",async()=>{
+        gulp.src("js/**/*")
         .pipe(gulp.dest('d:\\phpStudy\\WWW\\lqgw\\js'))
     })
-   
+    gulp.watch("indexImg/**/*",async()=>{
+        gulp.src("indexImg/**/*")
+        .pipe(gulp.dest('d:\\phpStudy\\WWW\\lqgw\\indexImg'))
+    })
     //压缩css
     gulp.watch("css/*.css",async ()=>{
         gulp.src("css/*.css")
         .pipe(minifycss())
         .pipe(gulp.dest("d:\\phpstudy\\WWW\\lqgw\\css"));
     });
+    // gulp.watch("indexImg/**/*",async()=>{
+    //     gulp.src("indexImg/**/*")
+    //     .pipe(imagemin())
+    //     .pipe(gulp.dest("d:\\phpstudy\\WWW\\lqgw\\indexImg"))
+    // })
 })

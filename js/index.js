@@ -95,5 +95,3 @@ $(".ab_33").mouseleave(function(){
 // $(".a_a").click(function(){
 //   $(".a_1").css("display","block");
 // })
-
-$(".a_a")
