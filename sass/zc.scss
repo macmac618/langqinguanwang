@@ -1,0 +1,196 @@
+.zc{
+    width: 100%;
+    height: 1067px;
+    background: #eff1f3;
+}
+.zc1{
+    width: 1350px;
+    height: 1067px;
+    margin: 26px auto 0;
+    display: flex;
+    
+}
+.zc_left{
+    width:875px;
+    height: 986px;
+    border-right: 1px solid #b7bfc6;
+}
+.zc_left1{
+    width:788px;
+    height: 986px;
+    margin-left: 90px;
+}
+.zc_right{
+    width: 410px;
+    height: 968px;
+    margin-left: 80px;
+}
+.zc_1{
+    width: 780px;
+    height: 80px;
+}
+.zcc{
+    
+    margin-top: 50px;
+}
+.zc_left h3{
+    width: 780px;
+}
+.zc_1 span{
+    display: block;
+}
+.zc_2{
+    width: 350px;
+    height: 50px;
+    margin-top:15px;
+}
+.zc_3 span{
+    display: block;
+}
+.zc_3{
+    margin-top: 15px;
+    width: 780px;
+     height: 80px;
+ }
+ #zc_4{
+    width: 176px;
+    height: 50px;
+    margin-top:15px;
+    background:#eff1f3 ;
+ }
+ .zc_left span{
+     color: #677988;
+ }
+ .zc_5{
+    width: 162px;
+    height: 50px;
+    margin-top:15px;
+    background:#eff1f3 ;
+    border: none;
+ }
+ .text2{
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600;
+    background: #003150;
+    border: none;
+  }
+  .jianto{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 186px;
+  }
+  .jiantou{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 134px;
+  }
+  .jiant{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 70px;
+  }
+  .text2:hover{
+    background: white;
+    border: 1px solid black;
+  }
+  .text2:hover.text2 span{
+    color: #003150;
+  }
+  .zc_right h3{
+    margin-top: 20px;
+    font-size: 29px;
+    margin-bottom: 10px;
+    color:#003150;
+}
+.zc_right p{
+  color:#003150;
+}
+  .zc_right12{
+      margin-bottom: 80px;
+  }
+  .zc_right strong{
+    font-size: 28px;
+    color:#003150;
+}
+.zc_bottom{
+    margin-bottom: 45px;
+}
+.zc_23{
+    width: 230px;
+    height: 50px;
+    margin-top:15px;
+}
+.zc_3 .zc_r{
+    margin-left: 86px;
+    border-bottom: 1px solid #003150;
+    color: #003150;
+    font-weight: 600;
+}
+.text21{
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 600;
+    background: #003150;
+    border: none;
+    margin-bottom: 35px;
+  }
+  .text21:hover{
+    background: white;
+    border: 1px solid black;
+  }
+  .text21:hover.text21 span{
+    color: #003150;
+  }
+  .H5{
+    font-weight:600;
+    font-size: 15px;
+    color: #003150;
+  }
+  .text3{
+    display: block;
+    margin-top: 20px;
+  }
+  .text4{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    // background: #003500;
+    margin-right: 20px;
+    margin-top: 24px;
+    position: relative;
+  }
+  .text4 img{
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0;
+  }
+  .text4 .wei{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  .text4:hover{
+    background: #003150;
+  }
+  .text4:hover .wei{
+    display: block;
+  }

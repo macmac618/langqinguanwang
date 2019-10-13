@@ -661,7 +661,8 @@ ul {
   margin-bottom: 15px; }
 
 .text2:hover {
-  background: white; }
+  background: white;
+  border: 1px solid black; }
 
 .text2:hover.text2 span {
   color: #003150; }
