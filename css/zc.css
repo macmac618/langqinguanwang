@@ -31,6 +31,25 @@
 .zcc {
   margin-top: 50px; }
 
+.zc_left_zcf {
+  width: 124px;
+  height: 58px;
+  float: right;
+  margin-right: 422px;
+  margin-top: 13px; }
+
+.zc_left_zmvv {
+  width: 124px;
+  height: 58px;
+  float: right;
+  margin-right: 471px;
+  margin-top: 15px; }
+
+.zc_left_zcf a {
+  display: block;
+  margin-top: 5px;
+  margin-left: 50px; }
+
 .zc_left h3 {
   width: 780px; }
 
@@ -50,20 +69,40 @@
   width: 780px;
   height: 80px; }
 
+.zc_9 {
+  margin-top: 15px;
+  width: 410px;
+  height: 80px; }
+
+.zc_9 span {
+  display: block; }
+
 #zc_4 {
   width: 176px;
   height: 50px;
   margin-top: 15px;
-  background: #eff1f3; }
+  background: #fff; }
 
-.zc_left span {
+.zc_left .zc_leftma {
   color: #677988; }
+
+.text25 {
+  display: block;
+  position: relative;
+  width: 165px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+  background: #003150;
+  border: none; }
 
 .zc_5 {
   width: 162px;
   height: 50px;
   margin-top: 15px;
-  background: #eff1f3;
+  background: #fff;
   border: none; }
 
 .text2 {
@@ -97,9 +136,21 @@
   font-weight: 600;
   margin-left: 70px; }
 
+.lable {
+  width: 25px;
+  height: 25px;
+  position: relative; }
+
 .text2:hover {
   background: white;
   border: 1px solid black; }
+
+.text25:hover {
+  background: white;
+  border: 1px solid black; }
+
+.text25:hover.text25 span {
+  color: #003150; }
 
 .text2:hover.text2 span {
   color: #003150; }
@@ -147,6 +198,9 @@
   background: #003150;
   border: none;
   margin-bottom: 35px; }
+
+.text21 span {
+  color: white; }
 
 .text21:hover {
   background: white;

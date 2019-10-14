@@ -15,6 +15,10 @@ gulp.task('copyallfile',async ()=>{
 //监听任务
 gulp.task("watchall",async()=>{
     //监听html，进l行复制
+    gulp.watch("php/**/*",async()=>{
+        gulp.src("php/**/*")
+        .pipe(gulp.dest("d:\\phpstudy\\WWW\\lqgw\\php"))
+    });
     gulp.watch("*.html",async()=>{
         gulp.src("*.html")
         .pipe(gulp.dest("d:\\phpstudy\\WWW\\lqgw"))
