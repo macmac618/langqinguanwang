@@ -46,10 +46,10 @@
             </div>
     </div>
     <div class="a_3">
-            <a href="" class="i im i2"><span class="is">腕表选购</span></a>        
-            <a href="" class="i i3"><span class="is">浪琴世界</span></a>        
-            <a href="" class="i ii i2"><img src="indexImg/logo.png" alt="" class="gmi"></a>        
-            <a href="" class="i i4"><span class="is">品牌</span></a>        
+            <a href="wanbiao.html" class="i im i2"><span class="is">腕表选购</span></a>        
+            <a href="langqinshijie.html" class="i i3"><span class="is">浪琴世界</span></a>        
+            <a href="" class="i ii"><img src="indexImg/logo.png" alt="" class="gmi"></a>        
+            <a href="pinpei.html" class="i i4"><span class="is">品牌</span></a>        
             <a href="" class="i"><span class="is">零售店</span></a>  
     </div>
     <div class="ab_12">
@@ -217,7 +217,7 @@
         <div class="zc_left">
             <div class="zc_left1">
                     <h3>账户注册使用手机号</h3>
-                    <form onsubmit="return check()">
+                    <!-- <form onsubmit="return check()"> -->
                         <div class="zc_1 zcc">
                             <span class="zc_leftma">*姓名</span>
                             <input type="text" class="zc_2" name="username" id="username"><span class="usera"></span>
@@ -226,15 +226,15 @@
                             <span class="zc_leftma">*性别</span>
                             <select name="" id="zc_4">
                                 <option value=""></option>
-                                <option value="">男</option>
-                                <option value="">女</option>
-                                <option value="">不公开</option>
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                                <option value="不公开">不公开</option>
                             </select>
                         </div>
                         <div class="zc_3">
                             <span class="zc_leftma">*手机</span>
                             <span class="zc_leftma">若通过手机号注册,浪琴将通过短信与您联系</span>
-                            <input type="text" class="zc_2"><span class="usera"></span>
+                            <input type="text" class="zc_2" id="phone"><span class="usera"></span>
                         </div>
                         <div class="zc_3">
                             <br>
@@ -274,7 +274,7 @@
                             <span>我已阅读并同意 <a href="parivacy-policy">隐私政策</a></span>
                         </div>
                         <button class="text2" id="text2"><span>提交</span><span class="jianto">→</span></button>
-                    </form>
+                    <!-- </form> -->
                 </div>
             </div>
         <div class="zc_right">
@@ -490,9 +490,12 @@
     let username = document.getElementById("username");
     let userpass = document.getElementById("userpass");
     let checkpass = document.getElementById("checkpass");
+    let phone = document.getElementById("phone");
     let text2 = document.getElementById("text2");
+    // let zc_4 = document.getElementById("zc_4");
     let usera = document.getElementById("usera");
     text2.onclick = function(){
+        check();
     //1、
     let xhr = new XMLHttpRequest();
 
@@ -501,21 +504,18 @@
 		xhr.onreadystatechange = function(){
 			if(xhr.readyState==4 && xhr.status==200){
 				if(xhr.responseText=="-1"){
-					usera.html("手机号已被注册");
-					usera.css("display","block");
+					alert("亲，用户名已被使用");
 				}else if(xhr.responseText=="0"){
-					usera.html("注册失败");
-					usera.css("display","block");
+					alert("注册失败")
 				}else if(xhr.responseText=="1"){
-					usera.html("注册成功请<a href='login.html'>登录</a>");
-					usera.css("display","block");
+					location.href ="zhuce.html";
 				}
 			}
 		}
 		//post方式：设置请求头
 		xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 		//post方式：把传给服务器端数据（键值对）放在send函数的参数里
-		let sendstr = `username=${$("#username")[0].value}&userpass=${$("#userpass")[0].value}`;
+        let sendstr = `username=${$("#username")[0].value}&userpass=${$("#userpass")[0].value}&phone=${$("#phone")[0].value}&zc_4=${$("#zc_4")[0].value}}`;
 		xhr.send(sendstr);
 
 }

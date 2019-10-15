@@ -4,7 +4,8 @@
 
     $username = $_POST['username'];
     $userpass = $_POST['userpass'];
-
+    $phone = $_POST['phone'];
+    $zc_4 = $_POST['zc_4'];
     //2、处理
      //1)、链接数据库(搭桥)
     
@@ -26,7 +27,7 @@
             mysql_close($conn);
             echo "-1";//用户名被使用
         }else{
-            $sqlstr="insert into langqinguanwang(username,userpass) values('$username','$userpass')";
+            $sqlstr="insert into langqinguanwang(username,userpass,phone,sex) values('$username','$userpass','$phone','$zc_4')";
             $result = mysql_query( $sqlstr,$conn);
         //     //4)、关闭数据库
             mysql_close($conn);
