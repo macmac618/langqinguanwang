@@ -1,3 +1,33 @@
+.fle {
+  bottom: 20px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  z-index: 1000;
+  background: #003150;
+  border: 1px solid #fff; }
+
+.fle a {
+  bottom: 20px;
+  right: 20px;
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  z-index: 1000;
+  background: #003150;
+  border: 1px solid #fff; }
+
+.fle a img {
+  width: 48px;
+  height: 48px;
+  margin-left: 12px; }
+
+.fle a span {
+  margin-left: 11px;
+  font-size: 13px;
+  color: #fff; }
+
 .biaokuan_1 {
   width: 100%;
   height: 62px;
@@ -28,15 +58,16 @@
 
 .biaokuan_5 {
   width: 100%;
-  height: 334px;
+  height: 360px;
   background: #eff1f3; }
   .biaokuan_5 .biaokuan_6 {
     width: 1350px;
     height: 294px;
-    border: 1px solid #d4d6d9;
     margin: 0 auto; }
+    .biaokuan_5 .biaokuan_6 li:nth-child(4) {
+      border: none; }
     .biaokuan_5 .biaokuan_6 li:nth-child(1) {
-      background: #eff1f3;
+      background: #d2d3d4;
       position: relative; }
       .biaokuan_5 .biaokuan_6 li:nth-child(1) .biaokuan_7 {
         width: 192px;
@@ -80,8 +111,40 @@
         left: 50%;
         top: 50%;
         margin-left: -25%;
-        margin-top: -25%;
+        margin-top: -30%;
         display: inline-block;
         width: 185px;
         height: 192px;
-        background: yellow; }
+        border: 1px solid #d4d6d9; }
+        .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_10 {
+          display: inline-block;
+          width: 48px;
+          height: 50px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          margin-left: -14%;
+          margin-top: -18%; }
+          .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_10 .biaokuan_11 {
+            width: 36px;
+            height: 32px;
+            margin-left: 6px;
+            margin-top: 10px; }
+          .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_10 .biaokuan_12 {
+            width: 36px;
+            height: 32px;
+            margin-left: 6px;
+            margin-top: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none; }
+        .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_10:hover {
+          background: #003150; }
+        .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_10:hover .biaokuan_12 {
+          display: block; }
+        .biaokuan_5 .biaokuan_6 li .biaokuan_9 .biaokuan_13 {
+          display: block;
+          margin-left: 63px;
+          margin-top: 114px;
+          color: #003150; }
