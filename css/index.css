@@ -228,6 +228,16 @@ a:hover{
     height: 60px;
     text-decoration: none;
     color: white;
+
+}
+.a_v{
+    display: flex;
+    float: right;
+    width: 116.4px;
+    height: 142px;
+    text-decoration: none;
+    color: white;
+
 }
 .a_22{
     width: 125px;
@@ -262,7 +272,13 @@ a:hover{
 .m{
         height: 33.6px;
         margin-top: 8px;
-    
+        font-size: 17px;
+
+}
+.m1{    
+    display: block;
+        height: 33.6px;
+        font-size: 15px;
 }
 .m_2{
     display: inline-block;
@@ -274,7 +290,16 @@ a:hover{
     background-position: 164px 125px;
     background-size: 1059px;
 }
-
+.m_12{
+    display: inline-block;
+    width: 34.6px;
+    margin-right: 10px;
+    height: 33.6px;
+    margin-left: 10px;
+    background: url(../indexImg/sprite.png);
+    background-position:488px 162px;;
+    background-size: 1059px;
+}
 .m_3{
     display: inline-block;
     width: 29.6px;
@@ -1012,3 +1037,12 @@ ul{
 .carousel-control{
     opacity: 0;
 } */
+.yingc,.yingcc{
+    display: none;
+}
+.bumai{
+    display: none;
+}
+.yingcc:hover~.bumai{
+    display: block;
+}

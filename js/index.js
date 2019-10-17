@@ -26,7 +26,6 @@ $(".i2").mouseenter(function(){
 $(".i2").mouseleave(function(){
     myTimer=setTimeout(function(){
 		$(".ab_12").slideUp();
-		console.log(11111);
 	},200);
 });
 
@@ -89,7 +88,6 @@ $(".ab_33").mouseenter(function(){
 $(".ab_33").mouseleave(function(){
 	$(this).hide();	
 })
-
 
 
 // $(".a_a").click(function(){
