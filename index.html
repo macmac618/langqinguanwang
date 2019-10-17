@@ -38,7 +38,7 @@
                         <span class="m1">您</span>
                         <button style="width: 80px; border: none;" class="bumai">联系我们</button>
                         <button style="width: 80px; border: none;" class="bumai">我的订单</button>
-                        <button style="width: 80px; border: none;" class="bumai">退出</button>
+                        <button style="width: 80px; border: none;" class="bumai" id="btnm">退出</button>
                     </a>
                     <a href="zhuce.html" class="a_b a_23 yingc" target="_blank">
                         <span class="m_3"></span>
@@ -632,7 +632,8 @@
 <script src="js/cookieTools.js"></script>
 <script>
     let yingc = document.getElementsByClassName("yingc");
-    let yingcc = document.getElementsByClassName("yingcc")
+    let yingcc = document.getElementsByClassName("yingcc");
+    let btnm = document.getElementById("btnm")
 
 function showUser(){
     let phone = getCookie("phone");
@@ -650,8 +651,8 @@ function showUser(){
 window.onload = function(){
     showUser(); 
     
-    $("#btnLogout").onclick = function(){
-        removeCookie("username");
+    btnm.onclick = function(){
+        removeCookie("phone");
         showUser();
     }
 }    

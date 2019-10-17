@@ -680,19 +680,15 @@ ul {
 
 .gouwu_4 {
   width: 100%;
-  height: 826px;
   background: #d6d2d2; }
   .gouwu_4 .gouwu_5 {
     width: 1350px;
-    height: 725px;
-    background: yellowgreen;
     margin: 0 auto;
     padding-top: 60px;
     display: flex; }
     .gouwu_4 .gouwu_5 .gouwu_l51 {
       width: 900px;
-      height: 435px;
-      background: yellow; }
+      border-right: 1px solid #d6d2d2; }
       .gouwu_4 .gouwu_5 .gouwu_l51 h1 {
         margin-bottom: 40px;
         color: #003150; }
@@ -700,36 +696,143 @@ ul {
         font-size: 20px;
         margin-bottom: 20px;
         color: #737373; }
-      .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 {
-        width: 414px;
-        height: 223px;
+      .gouwu_4 .gouwu_5 .gouwu_l51 table {
+        width: 830px;
+        height: 438px;
         background: #fff;
-        float: left;
-        margin-right: 2px; }
-        .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 img {
-          margin-right: 4px;
-          margin-top: 34px;
-          width: 142px;
-          height: 156px; }
-        .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 .gouwu_l53 {
-          width: 268px;
-          height: 220px;
-          background: chocolate;
-          float: right; }
-          .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 .gouwu_l53 .gouwu_l55 {
-            margin-top: 34px;
-            margin-bottom: 15px;
-            font-size: 16px;
-            font-weight: 600;
-            color: #84888b; }
-          .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 .gouwu_l53 .gouwu_l56 {
-            margin-bottom: 28px;
-            font-size: 16px;
-            font-weight: 600;
-            color: #84888b; }
-          .gouwu_4 .gouwu_5 .gouwu_l51 .gouwu_l52 .gouwu_l53 span {
-            font-size: 16px; }
-    .gouwu_4 .gouwu_5 .gouwu_r51 {
-      width: 454px;
-      height: 648px;
-      background: blueviolet; }
+        margin-bottom: 20px; }
+        .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(1) {
+          width: 6%;
+          text-align: center; }
+          .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(1) #check {
+            width: 25px;
+            height: 25px; }
+        .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(2) {
+          width: 25%; }
+          .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(2) img {
+            width: 200px;
+            height: 405px; }
+        .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) {
+          width: 69%; }
+          .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi {
+            width: 91%;
+            height: 300px; }
+            .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi p {
+              font-size: 15px;
+              font-weight: 600;
+              margin-bottom: 5px;
+              margin-top: 20px;
+              color: #737373; }
+            .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi a {
+              font-size: 15px;
+              margin-bottom: 10px;
+              color: #737373;
+              display: block; }
+            .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi .zhongx {
+              margin-top: 45px;
+              width: 91%;
+              height: 95px;
+              border-bottom: 1px solid #003150;
+              display: flex;
+              text-align: center; }
+              .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi .zhongx .zhongx1 {
+                width: 33.33%;
+                height: 100%; }
+                .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi .zhongx .zhongx1 .zhongx12 {
+                  font-size: 18px; }
+                .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi .zhongx .zhongx1 input {
+                  margin-top: 30px;
+                  width: 30px;
+                  font-size: 20px;
+                  text-align: center; }
+                .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .junqi .zhongx .zhongx1 .zhongx2 {
+                  display: inline-block;
+                  margin-top: 35px;
+                  font-size: 18px; }
+          .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .zhongx4 {
+            width: 100%;
+            height: 50px;
+            margin-top: 20px; }
+            .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .zhongx4 a {
+              display: flex;
+              margin-left: 400px; }
+              .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .zhongx4 a span:nth-child(1) {
+                margin-top: -9px;
+                font-size: 40px; }
+              .gouwu_4 .gouwu_5 .gouwu_l51 table td:nth-child(3) .zhongx4 a span:nth-child(2) {
+                font-size: 25px; }
+  .gouwu_4 .gouwu_r51 {
+    width: 454px;
+    height: 648px; }
+    .gouwu_4 .gouwu_r51 h3 {
+      font-weight: 900;
+      color: #84888b;
+      margin-bottom: 50px;
+      margin-left: 20px; }
+    .gouwu_4 .gouwu_r51 .gouwu_r57 {
+      width: 434px;
+      height: 36px;
+      line-height: 36px;
+      margin-left: 20px; }
+      .gouwu_4 .gouwu_r51 .gouwu_r57 input {
+        width: 25px;
+        height: 25px;
+        margin-top: -2px; }
+      .gouwu_4 .gouwu_r51 .gouwu_r57 span {
+        display: inline-block;
+        width: 178px;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 900; }
+    .gouwu_4 .gouwu_r51 .gouwu_r52 {
+      width: 434px;
+      height: 36px;
+      background: #e6eaed;
+      line-height: 36px;
+      margin-left: 20px; }
+      .gouwu_4 .gouwu_r51 .gouwu_r52 span:nth-child(1) {
+        display: inline-block;
+        width: 178px;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 900; }
+      .gouwu_4 .gouwu_r51 .gouwu_r52 span:nth-child(2) {
+        display: inline-block;
+        width: 230px;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 900; }
+    .gouwu_4 .gouwu_r51 .gouwu_r53 {
+      width: 434px;
+      height: 36px;
+      margin-left: 20px; }
+      .gouwu_4 .gouwu_r51 .gouwu_r53 span:nth-child(1) {
+        display: inline-block;
+        width: 178px;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 36px; }
+      .gouwu_4 .gouwu_r51 .gouwu_r53 span:nth-child(2) {
+        display: inline-block;
+        width: 230px;
+        height: 100%;
+        font-size: 18px;
+        font-weight: 900; }
+  .gouwu_4 .gouwu_r54 {
+    width: 434px;
+    height: 432px;
+    margin-left: 20px;
+    margin-top: 44px; }
+    .gouwu_4 .gouwu_r54 h4 {
+      font-size: 20px;
+      color: #84888b;
+      margin-bottom: 10px; }
+    .gouwu_4 .gouwu_r54 p {
+      color: #84888b;
+      margin-bottom: 30px; }
+    .gouwu_4 .gouwu_r54 .zhufu {
+      width: 434px;
+      height: 50px; }
+      .gouwu_4 .gouwu_r54 .zhufu img {
+        margin-right: 30px; }
