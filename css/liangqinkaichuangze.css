@@ -1,0 +1,133 @@
+.banner-kai {
+  margin-top: 26px;
+  width: 100%;
+  height: 500px;
+  background: url(../indexImg/pc-plp-banner.jpg) no-repeat;
+  background-position: 0 -246px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .banner-kai .banner-kai1 {
+    width: 100%;
+    height: 200px; }
+    .banner-kai .banner-kai1 span {
+      font-size: 6rem;
+      line-height: 6.6rem;
+      color: #fff;
+      margin-left: 150px; }
+    .banner-kai .banner-kai1 p {
+      color: #fff;
+      margin-left: 150px;
+      font-size: 20px;
+      margin-top: 20px; }
+    .banner-kai .banner-kai1 a {
+      color: #fff;
+      margin-left: 150px;
+      font-size: 20px;
+      margin-top: 20px;
+      display: block; }
+
+.banner-kai2 {
+  width: 100%;
+  height: 50px;
+  background: #e8eaeb; }
+
+.banner-kai3 {
+  width: 100%;
+  height: 430px;
+  background: #e8eaeb; }
+  .banner-kai3 .banner-kai4 {
+    width: 90%;
+    margin: 0 auto; }
+    .banner-kai3 .banner-kai4 .shangping {
+      width: 50%;
+      height: 53px;
+      margin-top: 26px; }
+      .banner-kai3 .banner-kai4 .shangping ul {
+        display: flex; }
+        .banner-kai3 .banner-kai4 .shangping ul li {
+          margin-top: 20px; }
+      .banner-kai3 .banner-kai4 .shangping a {
+        margin-top: 20px;
+        margin-left: 3px;
+        color: #003150; }
+      .banner-kai3 .banner-kai4 .shangping a:nth-child(1) {
+        margin-left: 50px; }
+      .banner-kai3 .banner-kai4 .shangping a:hover {
+        border-bottom: 1px solid #003150; }
+    .banner-kai3 .banner-kai4 .banner-kai5 {
+      width: 65%;
+      margin: 0 auto;
+      margin-top: 80px;
+      text-align: center; }
+      .banner-kai3 .banner-kai4 .banner-kai5 h3 {
+        margin-top: 0;
+        margin-bottom: 21px;
+        color: #737373;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 2px; }
+      .banner-kai3 .banner-kai4 .banner-kai5 p {
+        margin-bottom: 38px;
+        color: #003150;
+        font-size: 1.4rem;
+        line-height: 28px;
+        font-weight: 400; }
+      .banner-kai3 .banner-kai4 .banner-kai5 a {
+        display: inline-block;
+        text-transform: uppercase;
+        color: #003150;
+        font-size: 13px;
+        line-height: 30px;
+        border-bottom: 1px solid #003150;
+        letter-spacing: 1.2px;
+        font-weight: 400; }
+
+.banner-kai6 {
+  width: 100%;
+  background: #e8eaeb; }
+  .banner-kai6 .banner-kai7 {
+    width: 90%;
+    height: 3000px;
+    margin: 0 auto; }
+    .banner-kai6 .banner-kai7 ol {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto; }
+      .banner-kai6 .banner-kai7 ol li {
+        width: 33.33%;
+        height: 580px;
+        position: relative;
+        text-align: center;
+        border-bottom: 1px solid #c7ccd0; }
+        .banner-kai6 .banner-kai7 ol li .banner-kai8 {
+          line-height: 50px;
+          text-align: center;
+          color: #fff;
+          background: #c7ccd0;
+          font-weight: 600;
+          width: 130px;
+          height: 50px;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .banner-kai6 .banner-kai7 ol li img {
+          width: 100%;
+          height: 420px; }
+        .banner-kai6 .banner-kai7 ol li a {
+          display: block;
+          width: 90px;
+          height: 25px;
+          background: #003150;
+          color: #fff;
+          text-align: center;
+          line-height: 25px;
+          margin: 10px auto 0; }
+        .banner-kai6 .banner-kai7 ol li span {
+          font-size: 1.8rem; }
+      .banner-kai6 .banner-kai7 ol li:nth-child(2n) {
+        border-left: 1px solid #c7ccd0;
+        border-right: 1px solid #c7ccd0; }

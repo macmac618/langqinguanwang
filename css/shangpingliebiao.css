@@ -1,0 +1,150 @@
+.shangping {
+  width: 100%;
+  height: 53px;
+  background: #003150;
+  margin-top: 26px; }
+  .shangping ul {
+    display: flex; }
+    .shangping ul li {
+      margin-top: 20px;
+      color: #fff; }
+  .shangping a {
+    margin-top: 20px;
+    margin-left: 3px;
+    color: #fff; }
+  .shangping a:nth-child(1) {
+    margin-left: 50px; }
+  .shangping a:hover {
+    border-bottom: 1px solid #fff; }
+
+.shangping1 {
+  width: 100%;
+  height: 790px;
+  background: #e2dfdf;
+  display: flex; }
+  .shangping1 .shangping1_1 {
+    width: 40%;
+    height: 790px; }
+    .shangping1 .shangping1_1 .shangping1_12 {
+      width: 95%;
+      height: 760px;
+      margin-left: 5%;
+      margin-top: 30px; }
+      .shangping1 .shangping1_1 .shangping1_12 .xiangq {
+        margin-left: 90px; }
+  .shangping1 .shangping1_2 {
+    width: 60%;
+    height: 790px; }
+    .shangping1 .shangping1_2 .shangping1_22 {
+      width: 90%;
+      height: 730px;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      .shangping1 .shangping1_2 .shangping1_22 h3 {
+        font-size: 18px;
+        color: #003150; }
+      .shangping1 .shangping1_2 .shangping1_22 h1 {
+        font-size: 35px;
+        color: #003150;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      .shangping1 .shangping1_2 .shangping1_22 hr {
+        color: #666; }
+      .shangping1 .shangping1_2 .shangping1_22 ul {
+        margin: 20px 0; }
+        .shangping1 .shangping1_2 .shangping1_22 ul li {
+          margin: 5px 0;
+          color: #003150;
+          font-size: 1.5rem; }
+      .shangping1 .shangping1_2 .shangping1_22 .shangping1_23 {
+        width: 100%;
+        height: 70px; }
+        .shangping1 .shangping1_2 .shangping1_22 .shangping1_23 button {
+          width: 204px;
+          height: 70px;
+          background: #003150;
+          border: none;
+          margin-right: 20px;
+          color: #fff; }
+        .shangping1 .shangping1_2 .shangping1_22 .shangping1_23 button:hover {
+          background: #fff;
+          color: #003150; }
+      .shangping1 .shangping1_2 .shangping1_22 .shangping1_24 {
+        width: 100%;
+        height: 70px;
+        margin-top: 35px; }
+        .shangping1 .shangping1_2 .shangping1_22 .shangping1_24 button {
+          width: 80px;
+          height: 70px;
+          border: 1px solid #c7ccd0;
+          background: #e2dfdf;
+          margin-right: 25px; }
+      .shangping1 .shangping1_2 .shangping1_22 span {
+        display: block;
+        margin: 10px 28px 25px 10px;
+        float: left; }
+      .shangping1 .shangping1_2 .shangping1_22 p {
+        color: #003150; }
+        .shangping1 .shangping1_2 .shangping1_22 p img {
+          width: 26px;
+          height: 26px; }
+
+.shangping2_2 {
+  width: 100%;
+  height: 80px;
+  text-align: center; }
+  .shangping2_2 span {
+    display: block;
+    font-weight: 300;
+    color: #003150;
+    font-size: 26px; }
+    .shangping2_2 span img {
+      width: 157px;
+      height: 30px; }
+
+.shangping_3_3 {
+  width: 100%;
+  height: 600px; }
+  .shangping_3_3 .carousel-inner {
+    width: 100%;
+    height: 600px; }
+    .shangping_3_3 .carousel-inner .shangping_3_31 {
+      width: 25%;
+      height: 520px;
+      float: left; }
+      .shangping_3_3 .carousel-inner .shangping_3_31 .shangping_3_32 {
+        width: 100%;
+        height: 520px;
+        text-align: center; }
+        .shangping_3_3 .carousel-inner .shangping_3_31 .shangping_3_32 img {
+          width: 100%;
+          height: 344px; }
+      .shangping_3_3 .carousel-inner .shangping_3_31 strong {
+        color: #84888b;
+        margin-top: 20px; }
+      .shangping_3_3 .carousel-inner .shangping_3_31 p {
+        margin: 10px 0; }
+    .shangping_3_3 .carousel-inner .shangping_3_31:hover {
+      border: 4px solid #dadbdb; }
+
+.shangping_3_4 {
+  width: 100%; }
+  .shangping_3_4 img {
+    width: 100%; }
+
+.shangping2_ww {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px; }
+  .shangping2_ww span {
+    display: block;
+    color: #003150;
+    font-size: 20px; }
+
+.shangping_3_41 {
+  width: 100%;
+  height: 60px; }
