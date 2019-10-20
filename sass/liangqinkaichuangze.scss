@@ -130,6 +130,7 @@
                 position: relative;
                 text-align: center;
                 border-bottom: 1px solid #c7ccd0;
+                background: #fff;
 
                 .banner-kai8{
                     line-height: 50px;
@@ -147,7 +148,7 @@
                     width: 100%;
                     height: 420px;
                 }
-                a{
+                .banner_kai10{
                     display: block;
                     width: 90px;
                     height: 25px;
@@ -158,7 +159,29 @@
                     margin: 10px auto 0;
                 }
                 span{
-                    font-size: 1.8rem
+                    font-size: 1.8rem;
+                    display: block;
+                }
+                p{
+                   color: #84888b;
+                   font-size: 1.8rem; 
+                    color: #84888b;
+                    text-transform: uppercase;
+                    margin-bottom: 7px;
+                    font-weight: 600;
+                }
+                strong{
+                   color: #84888b;
+                   font-size: 1.6rem; 
+
+                }
+                .banner_kai9{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 580px;
+                    // background: #003150;
                 }
             }
             li:nth-child(2n){

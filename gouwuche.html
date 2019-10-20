@@ -225,7 +225,7 @@
                     <span class="gouwu_11 gouwu_12">结算支付</span>
                     <span class="gouwu_11">→</span>
                 </a>
-                <a href="" class="gouwu_3">
+                <a href="langqinkaichuangze.html" class="gouwu_3">
                         <span class="gouwu_12">继续购物</span>
                         <span class="gouwu_12">→</span>
                     </a>
@@ -237,7 +237,7 @@
                 <div class="gouwu_l51">
                     <h1>腕表</h1>
                     <p class="gouwu_l54">在我的购物车中</p>
-                    <table>
+                    <table class="goodsBox">
                         <tr>
                             <td>
                                 <input type="checkbox" id="check">
@@ -252,18 +252,18 @@
                                     <div class="zhongx">
                                         <div class="zhongx1">
                                             <span class="zhongx12">数量:</span>
-                                            <input type="button" value="-">
-                                            <input type="text" value="1">
-                                            <input type="button" value="+">
+                                            <input type="button" class="btnReduce" value="-">
+                                            <input type="text" class="count" value="1">
+                                            <input type="button" class="btnAdd" value="+">
 
                                         </div>
                                         <div class="zhongx1">
                                             <span class="zhongx2">价格:</span>
-                                            ￥<span class="zhongx2">13,100.00</span>
+                                            ￥<span class="zhongx2">13100.00</span>
                                         </div>
                                         <div class="zhongx1">
                                             <span class="zhongx2">小计:</span>
-                                            ￥<span class="zhongx2">13,100.00</span>
+                                            ￥<span class="zhongx2 price">13100.00</span>
                                         </div>
                                     </div>
                                     <div class="zhongx4">
@@ -276,7 +276,7 @@
                             </td>
                         </tr>
                     </table>
-                    <table>
+                    <table class="goodsBox">
                             <tr>
                                 <td>
                                     <input type="checkbox" id="check">
@@ -291,18 +291,18 @@
                                         <div class="zhongx">
                                             <div class="zhongx1">
                                                 <span class="zhongx12">数量:</span>
-                                                <input type="button" value="-">
-                                                <input type="text" value="1">
-                                                <input type="button" value="+">
+                                                <input type="button" class="btnReduce" value="-">
+                                                <input type="text" class="count" value="1">
+                                                <input type="button" class="btnAdd" value="+">
     
                                             </div>
                                             <div class="zhongx1">
                                                 <span class="zhongx2">价格:</span>
-                                                ￥<span class="zhongx2">13,800.00</span>
+                                                ￥<span class="zhongx2 price">13800.00</span>
                                             </div>
                                             <div class="zhongx1">
                                                 <span class="zhongx2">小计:</span>
-                                                ￥<span class="zhongx2">13,800.00</span>
+                                                ￥<span class="zhongx2">13800.00</span>
                                             </div>
                                         </div>
                                         <div class="zhongx4">
@@ -315,7 +315,7 @@
                                 </td>
                             </tr>
                     </table>
-                    <table>
+                    <table class="goodsBox">
                             <tr>
                                 <td>
                                     <input type="checkbox" id="check">
@@ -330,18 +330,18 @@
                                             <div class="zhongx">
                                                 <div class="zhongx1">
                                                     <span class="zhongx12">数量:</span>
-                                                    <input type="button" value="-">
-                                                    <input type="text" value="1">
-                                                    <input type="button" value="+">
+                                                    <input type="button" class="btnReduce" value="-">
+                                                    <input type="text" class="count" value="1">
+                                                    <input type="button" class="btnAdd" value="+">
         
                                                 </div>
                                                 <div class="zhongx1">
                                                     <span class="zhongx2">价格:</span>
-                                                    ￥<span class="zhongx2">17,500.00</span>
+                                                    ￥<span class="zhongx2 price">17500.00</span>
                                                 </div>
                                                 <div class="zhongx1">
                                                     <span class="zhongx2">小计:</span>
-                                                    ￥<span class="zhongx2">17,500.00</span>
+                                                    ￥<span class="zhongx2">17500.00</span>
                                                 </div>
                                         </div>
                                         <div class="zhongx4">
@@ -360,7 +360,7 @@
                         <h3>订单详情</h3>
                         <div class="gouwu_r57">
                                 <span>全选</span>
-                                <input type="checkbox" id="check">
+                                <input type="checkbox" class="check" id="allCheckBox">
                         </div>
                         <div class="gouwu_r52">
                                 <span>派送</span>
@@ -368,11 +368,11 @@
                         </div>
                         <div class="gouwu_r53">
                                 <span>小计</span>
-                                ￥<span>24,900.00</span>
+                                ￥<span>24900.00</span>
                         </div>
                         <div class="gouwu_r52">
                                 <span>总计</span>
-                                ￥<span>24,900.00</span>
+                                ￥<span id="totalMoney">00.00</span>
                         </div>
                         <div class="gouwu_r54">
                             <h4>免费送货</h4>
@@ -555,84 +555,42 @@
     </div>
 </body>
 </html>
-<script src="js/jquery-1.8.3.js"></script>
+<!-- <script src="js/jquery-1.8.3.js"></script> -->
 <!-- <script type="text/javascript" src="indexjs/jquery-1.4.2.min.js"></script> -->
 <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
-<script src="js/Calculation.js"></script>
-<script src="js/jquery.1.4.2-min.js"></script>
-<script src="js/gouwuche.js"></script>
+<script src="js/checkbox.js"></script>
+<!-- <script src="js/jquery-1.8.3.min.js"></script> -->
 <script>
-    $(document).ready(function () {
 
-	
-// 全选        
-$(".allselect").click(function () {
-    
-    if($(this).attr("checked")){
-        $(".gwc_tb2 input[name=newslist]").each(function () {
-            $(this).attr("checked", true);
-            // $(this).next().css({ "background-color": "#3366cc", "color": "#ffffff" });
+        $(function(){
+        
+            $(".btnAdd").click(function(){
+                let $text = $(this).prev();
+                $text.val(parseInt($text.val())+1);
+                calMoney();
+            });
+            
+            $(".btnReduce").click(function(){
+                let $text = $(this).next();
+                $text.val(parseInt($text.val())-1);
+                calMoney();
+            });
+        
+            $("#allCheckBox").bindCheckBox($(".goodsBox :checkbox"),calMoney);
         });
-        GetCount();
-    
-    }
-    else
-       {
-        $(".gwc_tb2 input[name=newslist]").each(function () {
-            if ($(this).attr("checked")) {
-                $(this).attr("checked", false);
-                //$(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
-            } else {
-                $(this).attr("checked", true);
-                //$(this).next().css({ "background-color": "#3366cc", "color": "#000000" });
-            } 
-        });
-        GetCount();
-
-       }
-    
-});
-
-//反选
-$("#invert").click(function () {
-    $(".gwc_tb2 input[name=newslist]").each(function () {
-        if ($(this).attr("checked")) {
-            $(this).attr("checked", false);
-            //$(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
-        } else {
-            $(this).attr("checked", true);
-            //$(this).next().css({ "background-color": "#3366cc", "color": "#000000" });
-        } 
-    });
-    GetCount();
-});
-
-//取消
-$("#cancel").click(function () {
-    $(".gwc_tb2 input[name=newslist]").each(function () {
-        $(this).attr("checked", false);
-        // $(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
-    });
-    GetCount();
-});
-
-// 所有复选(:checkbox)框点击事件
-$(".gwc_tb2 input[name=newslist]").click(function () {
-    if ($(this).attr("checked")) {
-        //$(this).next().css({ "background-color": "#3366cc", "color": "#ffffff" });
-    } else {
-        // $(this).next().css({ "background-color": "#ffffff", "color": "#000000" });
-    }
-});
-
-// 输出
-$(".gwc_tb2 input[name=newslist]").click(function () {
-    // $("#total2").html() = GetCount($(this));
-    GetCount();
-    //alert(conts);
-});
-});
-
-</script>
+        
+        function calMoney(){
+            let money = 0;
+            let $subCheckBox = $(".goodsBox :checkbox");
+            for(let i=0;i<$subCheckBox.length;i++){
+                if($subCheckBox[i].checked){
+                    let $goodsBox = $($subCheckBox[i].parentNode.parentNode.parentNode.parentNode);
+                    money += parseFloat($goodsBox.find(".price").html())*parseFloat($goodsBox.find(".count").val());
+                }
+            }
+            $("#totalMoney").html(money);
+        }
+        
+        </script>
